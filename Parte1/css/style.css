@@ -1,0 +1,30 @@
+body {
+    background-color: peachpuff;
+}
+
+img {
+    width: 50%;
+    border: 5px double;
+}
+
+.img {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+blockquote {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 50px;
+}
