@@ -14,7 +14,7 @@ header,.content{
       height: 100vh;
       list-style: none;
       justify-content:space-around;
-  
+      flex-direction: column;
     }
 
   
@@ -43,7 +43,7 @@ header,.content{
       .nav {
 
         height: auto;
-
+        flex-direction:row;
       }
 
 
@@ -89,17 +89,15 @@ header,.content{
     
     /* (3) Agrega codigo flex para que aparezcan los encabezados. (Solo necesitas activar flex) */      
     header {
-
+      display: flex;
    }
 
    /*
 (3.1) Utiliza el mismo .nav del media query anterior
 */
       .nav {
-
         height: auto;
-
-
+        flex-direction:row;
       }
 
     h2 {
