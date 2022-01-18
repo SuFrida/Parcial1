@@ -21,6 +21,9 @@ Funciones 1 -  Crea una funcion llamada "mayusculas" que:
 
 // CREA TU FUNCION MAYUSCULAS aqui:
 
+mayusculas = function(x){ 
+  return x.toUpperCase();
+};
 
 
 
@@ -36,6 +39,9 @@ Funciones 2 -  Crea una funcion llamada "calculateDogAge" que:
 
 // CREA TU FUNCION calculateDogAge aqui:
 
+calculateDogAge = function(x){ 
+  return x * 7;
+};
 
 
 
@@ -61,6 +67,25 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
 
 */
 
+//Dog Constructor
+
+function Dog(name,color, breed){
+  this.name = name
+  this.color = color
+  this.breed = breed
+  this.printDogData = printData
+}
+
+function printData() {
+  console.log(`El perro ${this.name} de color ${this.color} y de raza ${this.breed} hace woof`)
+}
+
+Dog1 = new Dog('Hugo','chocolate', 'labrador')
+Dog2 = new Dog('Paco','blanco', 'chihuahua')
+Dog3 = new Dog('Luis','negro y café', 'doberman')
+
+
+
 
 
 /***
@@ -69,9 +94,10 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
  * 
  ***/
 
-
-mayusculas(nombres);
-calculateDogAge(4);
+ alert(nombres = nombres.map(mayusculas))
+ alert("Tu perro tiene " + calculateDogAge(3) + " años")
+//mayusculas(nombres);
+//calculateDogAge(4);
 
 
 
@@ -81,6 +107,9 @@ calculateDogAge(4);
  *        PRUEBA TUS OBJETOS AQUI
  * 
  ***/
+Dog1.printDogData()
+Dog2.printDogData()
+Dog3.printDogData()
 
 
 </script>
@@ -88,6 +117,9 @@ calculateDogAge(4);
 </head>
 
 <body>
+<h1>Part 3 - Completed! :)</h1>
+<p>Check the Console</p>
+
 
 
 
